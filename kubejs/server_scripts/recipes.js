@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'cp_tweaks:tools/steel/ingot' })
   event.remove({ id: 'sophisticatedbackpacks:backpack' })
   event.remove({ id: 'bhc:god_apple' })
-  event.remove({ id: 'apotheosis:enchanted_golden_apple' })
+  event.remove({ output: 'minecraft:enchanted_golden_apple', mod: 'apotheosis'})
   event.remove({ id: 'tiab:time_in_a_bottle'})
 
   // Adding recipes
