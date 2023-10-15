@@ -1,0 +1,60 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introducing"
+	group: "453B436AE8A5115B"
+	icon: "create:schematic_and_quill"
+	id: "50DEC7978D6DD605"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "projectexpansion:final_star"
+			id: "3E91397E58C5263F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6AB640256BBC0A37"
+				type: "checkmark"
+			}]
+			title: "Techscape Eras"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&l&5Ceci est un test&r&r"]
+			id: "00C7EB49919D02D0"
+			rewards: [{
+				auto: "disabled"
+				id: "3558572D3CE2B5FC"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:block_bit"
+					tag: {
+						block_information: {
+							state: "{\"Properties\":{\"level\":\"0\"},\"Name\":\"chemlib:hydrochloric_acid\"}"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:oak_sapling"
+				id: "120AAE9BE7825D13"
+				observe_type: 0
+				timer: 1L
+				title: "Observe a tree"
+				to_observe: "minecraft:oak_log"
+				type: "observation"
+			}]
+			title: "Observe a tree"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Modpack overview, systems and features"]
+	title: "Introducing"
+}

@@ -1,0 +1,14 @@
+#368 byg:allium_fields
+#556 minecraft:beach
+#4B3 byg:cika_woods
+#1FE byg:coconino_meadow
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#010 minecraft:forest
+#79C byg:maple_taiga
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#634 byg:prairie
+#5FF minecraft:river
+#51A minecraft:stony_shore

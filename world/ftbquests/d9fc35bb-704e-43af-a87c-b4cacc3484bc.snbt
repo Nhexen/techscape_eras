@@ -1,0 +1,29 @@
+{
+	version: 1
+	uuid: "d9fc35bb704e43afa87cb4cacc3484bc"
+	name: "Nhexen"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		120AAE9BE7825D13: 1
+	}
+	started: {
+		50DEC7978D6DD605: 1697377677656L
+		0000000000000001: 1697377677656L
+		120AAE9BE7825D13: 1697378125509L
+		00C7EB49919D02D0: 1697378125509L
+	}
+	completed: {
+		120AAE9BE7825D13: 1697378125509L
+		00C7EB49919D02D0: 1697378125509L
+	}
+	claimed_rewards: {
+		"00000000000000000000000000000000:3558572D3CE2B5FC": 1697378125510L
+	}
+	player_data: {
+		d9fc35bb704e43afa87cb4cacc3484bc: {
+			can_edit: 1b
+			chapter_pinned: 1b
+		}
+	}
+}

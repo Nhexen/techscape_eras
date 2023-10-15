@@ -1,0 +1,18 @@
+[07:07:19] [INIT] KubeJS 1902.6.2-build.3; MC 1902 forge
+[07:07:19] [INIT] Loaded plugins:
+[07:07:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[07:07:19] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
+[07:07:19] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[07:07:19] [INIT] - com.bobvarioa.kubejsprojecte.kubejs.KubeJSProjectEPlugin
+[07:07:19] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[07:07:19] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
+[07:07:19] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[07:07:19] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[07:07:19] [INIT] - com.oierbravo.create_mechanical_spawner.compat.kubejs.KubeJSCreateMechanicalSpawnerPlugin
+[07:07:19] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[07:07:19] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[07:07:19] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[07:07:19] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[07:07:20] [INFO] startup_scripts:example.js:5: Hello, World! (Loaded startup scripts)
+[07:07:20] [INFO] Loaded script startup_scripts:example.js in 0.307 s
+[07:07:20] [INFO] Loaded 1/1 KubeJS startup scripts in 1.192 s
