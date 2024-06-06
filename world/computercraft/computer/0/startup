@@ -1,6 +1,0 @@
-while true do
-    commands.exec("/time set day")
-    sleep(60)
-end
-
-
