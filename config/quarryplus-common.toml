@@ -26,26 +26,28 @@
 	#The range limit(unit: blocks) of ChunkDestroyer. Set -1 or 0 to remove limitation.
 	#Range: > -1
 	chunkDestroyerLimit = -1
-	#The max distance(unit: blocks) Flexible Marker can reach
-	#Range: 16 ~ 4096
-	flexMarkerMaxDistance = 256
 	#True to allow pipes to extract items in WorkbenchPlus
 	allowWorkbenchExtraction = false
 	#Use simple chunk load function.
 	#If you have other chunk load system, please disable this and use other mods.
-	enableChunkLoader = true
+	enableChunkLoader = false
 	#Trace quarry work
 	logAllQuarryWork = false
+	#The max distance(unit: blocks) Flexible Marker can reach
+	#Range: 16 ~ 4096
+	flexMarkerMaxDistance = 256
+	#Remove fluids after Chunk Destroyer finishes working. Recommended to set `false` as some issues are reported in #371
+	removeFluidAfterFinishedByCD = false
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]
 	adv_pump = true
 	adv_quarry = true
-	book_mover = false
+	book_mover = true
 	exp_module = true
 	exp_pump = true
 	filler = true
-	filler_module = false
+	filler_module = true
 	filter_module = true
 	fuel_module_normal = true
 	mini_quarry = true
@@ -57,12 +59,12 @@
 	quarry = true
 	remote_placer = false
 	remove_bedrock_module = false
-	repeat_tick_module = false
 	replacer = false
 	replacer_module = false
 	solid_fuel_quarry = true
 	spawner_controller = false
 	workbench = true
+	repeat_tick_module = false
 
 #Power settings of each machines
 [powers]

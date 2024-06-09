@@ -9,7 +9,7 @@
 		#When joining a new world, should players be given a blueprint package?
 		#The blueprint package gives some blueprints when used (right-click).
 		#To change what is given, override the starter_blueprints loot table.
-		spawnWithStarterBlueprints = true
+		spawnWithStarterBlueprints = false
 
 	#Repair kit configs.
 	[item.repairKits]
@@ -94,10 +94,12 @@
 	#The item tier assigned to gear tool items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: WOOD, STONE, IRON, DIAMOND, GOLD, NETHERITE
 	dummyToolTier = "WOOD"
 	#The armor material assigned to the gear armor items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: LEATHER, CHAIN, IRON, GOLD, DIAMOND, TURTLE, NETHERITE
 	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]

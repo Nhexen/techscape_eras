@@ -1,13 +1,12 @@
 {
 	chapter_groups: [
-		{ id: "453B436AE8A5115B", title: "The Beginning" }
-		{ id: "27B34AB1DB5FE091", title: "Arcane Ascent" }
-		{ id: "6B40700EC801AF6A", title: "Steampunk Genesis" }
-		{ id: "7D3A90DE54A86687", title: "Electron Enlightment" }
-		{ id: "515F3C1062434DD3", title: "Abyssal Conquest" }
-		{ id: "1D86CBB4D8FF5D41", title: "Mineral Mastery" }
-		{ id: "563A6518C66D76B9", title: "Alchemy Advancement" }
-		{ id: "285181F1F3863CB7", title: "Futuristic Fusion" }
-		{ id: "4AABB110953C9F5D", title: "The Ascendant End" }
+		{ id: "2084F3F6FB861C5B", title: "{atm9.chapters.group.1.}" }
+		{ id: "22FB35B0FEF1343D", title: "{atm9.chapters.group.2.}" }
+		{ id: "1AC60211DE7427FC", title: "{atm9.chapters.group.3.}" }
+		{ id: "6614EE2378B8AFB9", title: "{atm9.chapters.group.4.}" }
+		{ id: "2B51AC12041E3F89", title: "{atm9.chapters.group.5.}" }
+		{ id: "1DA67E79B40AB130", title: "{atm9.chapters.group.6.}" }
+		{ id: "02FE661031A105D8", title: "{atm9.chapters.group.7.}" }
+		{ id: "752CDE464613A1ED", title: "{atm9.chapters.group.8.}" }
 	]
 }

@@ -2,7 +2,7 @@
 #Lighting
 [lights]
 	#Show the supporter message. This is set to false after the first time.
-	showSupporterMessage = true
+	showSupporterMessage = false
 	#If dynamic lights are enabled
 	lightsEnabled = false
 	#How bright the touch light is
@@ -35,7 +35,7 @@
 	#If the Storage Lectern should show the recipe book icon
 	showRecipeBook = true
 	#Inform the player of Dynamic lights once.
-	informLights = true
+	informLights = false
 
 #Misc
 [misc]
@@ -43,4 +43,10 @@
 	no_end_portal_render = false
 	#Disables the skyweave renderer. Disable if your sky is broken with shaders.
 	disable_skyweave = false
+	#Enables transparent/opaque rendering of elements in the book GUI. Disable if it leads to crash with Sodium derivatives
+	gui_transparency = true
+	#Show spell tooltips with glyphs instead of plain text
+	glyphTooltips = true
+	#Disables translucent particles. Disable if your particles are invisible with shaders.
+	opaque_particles = false
 

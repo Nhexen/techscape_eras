@@ -4,7 +4,7 @@
 	#Whether the machine places initial frame blocks to show working area.
 	placeAreaFrame = true
 	#If true, quarry works for a chunk and go next chunk when finished.
-	chunkByChunk = true
+	chunkByChunk = false
 	#If true, quarry starts when it has enough power. If false it starts when you click start button in GUI.
 	startImmediately = true
 
