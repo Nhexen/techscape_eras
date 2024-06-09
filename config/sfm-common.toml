@@ -1,5 +1,0 @@
-#Range: > 1
-timerTriggerMinimumIntervalInTicks = 20
-#Range: > 1
-timerTriggerMinimumIntervalInTicksWhenOnlyForgeEnergyIOStatementsPresent = 1
-

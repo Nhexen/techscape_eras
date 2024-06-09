@@ -7,7 +7,7 @@
 		enablePlayerDetector = true
 		#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range. -1 for unlimited
 		#Range: > -1
-		playerDetMaxRange = 100000000
+		playerDetMaxRange = -1
 		#Activates the "getPlayerPos" function of the Player Detector
 		enablePlayerPosFunction = true
 		#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
@@ -39,7 +39,7 @@
 
 	[Peripherals.Chunky_Turtle]
 		#Enable the Chunky Turtle or not.
-		enableChunkyTurtle = false
+		enableChunkyTurtle = true
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		#Range: > 60
 		chunkLoadValidTime = 600
@@ -111,6 +111,10 @@
 		#Range: > 1000000
 		poweredPeripheralMaxEnergyStored = 100000000
 
+	[Peripherals.Pocket_Peripherals]
+		#If true, pockets will have infinite fuel
+		disablePocketFuelConsumption = true
+
 	[Peripherals.Operations]
 		#Range: > 1000
 		digCooldown = 1000
@@ -154,8 +158,4 @@
 		scanEntitiesExtraBlockCost = 0.17
 		#Range: > 1000
 		chatMessageCooldown = 1000
-
-	[Peripherals.Pocket_Peripherals]
-		#If true, pockets will have infinite fuel
-		disablePocketFuelConsumption = true
 

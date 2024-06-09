@@ -42,7 +42,7 @@
 
 	[blocks.wind_vane]
 		#Wind vane animation swings according to this equation: 
-		#angle(time) = max_angle_1*sin(2pi*time*pow/period_1) + <max_angle_2>*sin(2pi*time*pow/<period_2>)
+		#pitch(time) = max_angle_1*sin(2pi*time*pow/period_1) + <max_angle_2>*sin(2pi*time*pow/<period_2>)
 		#where:
 		# - pow = max(1,redstone_power*<power_scaling>)
 		# - time = time in ticks
@@ -51,7 +51,7 @@
 		#increase to have more distinct indication when weather changes
 		#Range: 1.0 ~ 100.0
 		power_scaling = 3.0
-		#Amplitude (maximum angle) of first sine wave
+		#Amplitude (maximum pitch) of first sine wave
 		#Range: 0.0 ~ 360.0
 		max_angle_1 = 30.0
 		#Range: 0.0 ~ 360.0
@@ -87,34 +87,6 @@
 		#THIS IS ONLY FOR VISUALS! To allow more entities in cages you need to edit the respective tags!
 		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
 		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
-
-	[blocks.wall_lantern]
-		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_lanterns = false
-
-		[blocks.wall_lantern.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
-
-	[blocks.enhanced_hanging_sign]
-		#Modifies vanilla hanging signs to make them like old Supplementaries ones
-		enabled = true
-		#Makes supplementaries hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
-		fast_signs = false
-
-		[blocks.enhanced_hanging_sign.swing_physics]
-			min_angle = 0.79999995
-			collision_force = 15.0
-			damping = 0.525
-			collision_inertia = 1.0
-			collision_considers_entity_hitbox = true
-			frequency = 0.6
-			max_angle = 60.0
 
 	[blocks.hat_stand]
 
@@ -157,8 +129,13 @@
 [general]
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
+	#Disables Amendments suggestion screen
+	no_amendments_screen = true
 	#Enable Quark style config button on main menu. Needs Configured installed to work
 	config_button = false
+	#Config button Y offset
+	#Range: -10000 ~ 10000
+	config_button_y_offset = 0
 	#Show some tooltip hints to guide players through the mod
 	tooltip_hints = true
 	#Show tooltips items that have been made placeable
@@ -174,9 +151,6 @@
 	#ignore this
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
-	#Config button Y offset
-	#Range: -10000 ~ 10000
-	config_button_y_offset = 0
 
 #Game tweaks
 [tweaks]
@@ -206,9 +180,6 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
-	#Range: 0.0 ~ 5.0
-	sign_text_color_multiplier = 1.2000000476837158
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors

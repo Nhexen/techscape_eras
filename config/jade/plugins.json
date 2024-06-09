@@ -1,4 +1,7 @@
 {
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -53,14 +56,13 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -70,8 +72,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "platforms": {
-    "hud": true
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "ae2": {
     "part_icon": true,
@@ -85,12 +89,23 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "utilitix": {
-    "glue_information": true,
-    "experience_crystal": true,
-    "linked_repeater": true,
-    "crude_furnace": true,
-    "advanced_brewery": true
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "projecte": {
+    "emc_provider": true
   },
   "mekanism": {
     "infuse_type": true,
@@ -102,140 +117,21 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
   "pipez": {
     "pipe": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
-  },
-  "securitycraft": {
-    "showowner": true,
-    "showmodules": true,
-    "info": true,
-    "showcustomname": true
-  },
-  "framedblocks": {
-    "framed_item_frame": true
-  },
-  "enderchests": {
-    "hud": true
-  },
-  "dimstorage": {
-    "dim_block_base": true,
-    "dim_tank": true
-  },
-  "deepresonance": {
-    "crystal": true,
-    "generator_part": true
-  },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
-  },
-  "tombstone": {
-    "graves": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
-  },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
-  },
-  "gtceu": {
-    "recipe_logic_provider": true,
-    "workable_provider": true,
-    "electric_container_provider": true,
-    "controllable_provider": true
-  },
-  "expatternprovider": {
-    "jade_chamber": true,
-    "jade_wireless": true
-  },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "lootr": {
-    "info": true
-  },
-  "productivebees": {
-    "solitary_nest": true,
-    "jar": true,
-    "canvas_beehive": true,
-    "bee_attributes": true,
-    "productive_bee": true
-  },
-  "modularrouters": {
-    "router": true
-  },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "mysticalagradditions": {
-    "infused_farmland": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
   },
   "supplementaries": {
     "hat_stand": true
   },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
+  "waystones": {
+    "waystone": true
+  },
+  "corpse": {
+    "corpse": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }
