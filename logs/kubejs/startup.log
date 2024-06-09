@@ -1,18 +1,22 @@
-[07:07:19] [INIT] KubeJS 1902.6.2-build.3; MC 1902 forge
-[07:07:19] [INIT] Loaded plugins:
-[07:07:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[07:07:19] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
-[07:07:19] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[07:07:19] [INIT] - com.bobvarioa.kubejsprojecte.kubejs.KubeJSProjectEPlugin
-[07:07:19] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[07:07:19] [INIT] - dev.latvian.mods.kubejs.immersiveengineering.ImmersiveEngineeringKubeJSPlugin
-[07:07:19] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[07:07:19] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[07:07:19] [INIT] - com.oierbravo.create_mechanical_spawner.compat.kubejs.KubeJSCreateMechanicalSpawnerPlugin
-[07:07:19] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[07:07:19] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
-[07:07:19] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
-[07:07:19] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[07:07:20] [INFO] startup_scripts:example.js:5: Hello, World! (Loaded startup scripts)
-[07:07:20] [INFO] Loaded script startup_scripts:example.js in 0.307 s
-[07:07:20] [INFO] Loaded 1/1 KubeJS startup scripts in 1.192 s
+[17:22:08] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[17:22:08] [INIT] Loaded plugins:
+[17:22:08] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:22:08] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[17:22:08] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[17:22:08] [INIT] - com.bobvaraioa.kubejspowah.KubeJSPowahPlugin
+[17:22:08] [INIT] - com.wolfieboy09.kjscc.ComputerCraftPlugin
+[17:22:08] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[17:22:08] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[17:22:08] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[17:22:08] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[17:22:08] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[17:22:08] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[17:22:08] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[17:22:08] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[17:22:08] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[17:22:08] [INIT] - dev.kostromdan.mods.netjs.NetJSPlugin
+[17:22:08] [INIT] - com.bobvarioa.kubejsreiruntime.integrations.kube.KubePlugin
+[17:22:08] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[17:22:08] [INIT] - dev.sorin.kubejsextendedcrafting.KubejsExtendedCraftingPlugin
+[17:22:09] [INFO] Loaded script startup_scripts:setnames.js in 0.057 s
+[17:22:09] [INFO] Loaded 1/1 KubeJS startup scripts in 0.408 s with 0 errors and 0 warnings
